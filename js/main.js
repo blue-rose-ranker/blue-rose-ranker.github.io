@@ -13,16 +13,16 @@ var padding = 40;
 var middlePadding = (padding * 2) + 100;
 var width = $(window).width() - middlePadding - CHART_WIDTH - 30;
 
-var episodes = [1, 2, 3, 5, 6, 8, 10, 11];
+var episodes = [2, 4, 6, 7];
 var totalData;
 var dFirst;
 
 var colors = {
-    "A": "#fb9fcb",
-    "B": "#ff951c",
-    "C": "#fff200",
-    "D": "#00a500",
-    "F": "gray"
+    "A": "#F598B5",
+    "B": "#E69F75",
+    "C": "#70B589",
+    "BLOOM": "#5EA3BC",
+    "SEEDLING": "#B0B98E"
 };
 
 // Set up plot
