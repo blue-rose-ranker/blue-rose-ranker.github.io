@@ -6,7 +6,7 @@ var SELECT_WIDTH = 8;
 var NORMAL_OPACITY = 0.1;
 var SELECT_OPACITY = 1;
 var CHART_WIDTH = 500;
-var CUTOFF = 11; // Update cutoff
+var CUTOFF = 5; // Update cutoff
 
 var height = 390;
 var padding = 40;
@@ -21,8 +21,8 @@ var colors = {
     "A": "#F598B5",
     "B": "#E69F75",
     "C": "#70B589",
-    "BLOOM": "#5EA3BC",
-    "SEEDLING": "#B0B98E"
+    "🌹": "#5EA3BC",
+    "🌱": "#B0B98E"
 };
 
 // Set up plot
