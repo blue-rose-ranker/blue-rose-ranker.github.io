@@ -318,9 +318,6 @@ function getRankInfo(d) {
     if (d.isEliminated) {
         return "Eliminated in Episode " + episodes[d.ranking.length - 1];
     }
-    if (d.ranking[i] == 8) {
-        return "BLUE ROSE Member, Rank " + d.currentRank + " " + displayRankChange(d)
-    }
     return "BLUE ROSE Member, Rank " + d.currentRank + " " + displayRankChange(d);
 }
 
